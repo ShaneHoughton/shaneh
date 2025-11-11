@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
-if (isProd) console.log("yippe");
+if (isProd) console.log("yippee");
 const nextConfig: NextConfig = {
   devIndicators: false,
-  basePath: isProd ? "/shaneh" : "",
-  assetPrefix: isProd ? "/shaneh" : "",
+  basePath: isProd ? "/shaneh.dev" : "",
+  assetPrefix: isProd ? "/shaneh.dev" : "",
   images: {
     unoptimized: true,
   },
