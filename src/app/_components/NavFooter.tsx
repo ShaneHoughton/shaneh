@@ -6,12 +6,12 @@ const NavFooter: React.FC = () => {
     <footer className="flex gap-[24px] text-center text-wrap justify-start sm:justify-start">
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="/"
+        href="./"
         rel="noopener noreferrer"
       >
         <Image
           aria-hidden
-          src="/question.svg"
+          src="./question.svg"
           alt="question icon"
           width={16}
           height={16}
@@ -20,7 +20,7 @@ const NavFooter: React.FC = () => {
       </a>
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="/development"
+        href="./development"
         rel="noopener noreferrer"
       >
         <Image
@@ -34,12 +34,12 @@ const NavFooter: React.FC = () => {
       </a>
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="/other"
+        href="./other"
         rel="noopener noreferrer"
       >
         <Image
           aria-hidden
-          src="/sparkles.svg"
+          src="./sparkles.svg"
           alt="sparkles icon"
           width={16}
           height={16}
