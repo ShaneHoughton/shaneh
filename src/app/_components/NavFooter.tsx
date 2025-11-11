@@ -12,7 +12,7 @@ const NavFooter: React.FC = () => {
         <Image
           aria-hidden
           src="/question.svg"
-          alt="File icon"
+          alt="question icon"
           width={16}
           height={16}
         />
@@ -25,8 +25,8 @@ const NavFooter: React.FC = () => {
       >
         <Image
           aria-hidden
-          src="/code.svg"
-          alt="File icon"
+          src="./code.svg"
+          alt="code icon"
           width={16}
           height={16}
         />
@@ -40,7 +40,7 @@ const NavFooter: React.FC = () => {
         <Image
           aria-hidden
           src="/sparkles.svg"
-          alt="Window icon"
+          alt="sparkles icon"
           width={16}
           height={16}
         />
