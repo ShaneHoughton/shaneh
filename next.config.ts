@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
 const nextConfig: NextConfig = {
-  output: "export",
-  // basePath: process.env.PAGES_BASE_PATH,
-  // Optional: If deploying to a subpath (e.g., your-username.github.io/your-repo-name),
-  // set basePath and assetPrefix. Replace 'your-repo-name' with your repository name.
-  basePath: "/shaneh",
-  assetPrefix: "/shaneh",
+  devIndicators: false,
+  basePath: isProd ? "/shaneh/" : "",
+  assetPrefix: isProd ? "/shaneh/" : "",
+  images: {
+    unoptimized: true, 
+  },
 };
 
 export default nextConfig;
