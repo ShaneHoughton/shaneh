@@ -11,8 +11,8 @@ export default function Home() {
         aria-hidden
         unoptimized
         priority
-        className="ml-auto right-20 bottom-25 w-2/3 absolute opacity-70"
-        src="/squid.gif"
+        className="ml-auto right-20 bottom-25 w-2/3 absolute opacity-50"
+        src="./squid.gif"
         alt="my cat, Squidward, lounging"
         width={900}
         height={900}
