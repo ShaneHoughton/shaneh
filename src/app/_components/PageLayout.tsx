@@ -12,7 +12,7 @@ interface PageLayoutProps {
 export default function PageLayout(props: PageLayoutProps) {
   const isVisible = useIsVisible();
   return (
-    <div className="font-sans flex flex-col gap-10 items-center sm:items-start m-auto max-h-screen h-[1260px] max-w-[2560px] w-full p-10 sm:p-20">
+    <div className="font-sans flex flex-col gap-10 items-center sm:items-start m-auto max-h-screen h-full sm:h-[1260px] max-w-[2560px] w-full p-10 sm:p-20">
       {props.title && (
         <header className="text-5xl text-center sm:text-left font-mono">
           {props.title}
