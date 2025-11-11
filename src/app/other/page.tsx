@@ -1,8 +1,9 @@
+"use client";
 import PageLayout from "../_components/PageLayout";
 
 export default function Other() {
   return (
-    <PageLayout title="art" description="artwork and passion projects">
+    <PageLayout title="other stuff" description="artwork and passion projects">
       <div className="flex flex-wrap gap-10">
         <a
           className="hover:underline hover:underline-offset-4 cursor-pointer"

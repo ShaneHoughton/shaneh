@@ -1,3 +1,4 @@
+"use client";
 import PageLayout from "../_components/PageLayout";
 
 export default function Developement() {
