@@ -5,7 +5,7 @@ export default function Developement() {
   const title = "development";
   return (
     <PageLayout title={title}>
-      <ul className="w-full flex flex-col gap-4 list-disc ml-4 p-1">
+      <ul className="w-full flex flex-col gap-4 list-disc ml-4 px-2">
         <li className="text-xl">
           <a
             className="hover:underline hover:underline-offset-4 cursor-pointer"
