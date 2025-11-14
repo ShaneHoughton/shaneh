@@ -12,7 +12,7 @@ interface PageLayoutProps {
 export default function PageLayout(props: PageLayoutProps) {
   const isVisible = useIsVisible();
   return (
-    <div className="font-sans flex flex-col gap-10 items-center sm:items-start m-auto max-w-[2560px] w-full max-h-screen p-10 sm:p-20">
+    <div className="font-sans flex flex-col gap-10 items-center sm:items-start m-auto max-w-[2560px] w-full h-full p-10 sm:p-20">
       {props.title && (
         <header className="text-5xl text-center sm:text-left font-mono">
           {props.title}
@@ -23,7 +23,7 @@ export default function PageLayout(props: PageLayoutProps) {
       )}
 
       <main
-        className={`w-full flex flex-wrap gap-10 transition-opacity duration-500 ease-in-out overflow-y-scroll mb-15 overflow-x-visible ${
+        className={`w-full flex flex-wrap gap-10 transition-opacity duration-500 ease-in-out overflow-y-scroll mb-15 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
