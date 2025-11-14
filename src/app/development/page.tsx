@@ -9,6 +9,15 @@ export default function Developement() {
         <li className="text-xl">
           <a
             className="hover:underline hover:underline-offset-4 cursor-pointer"
+            href="https://github.com/ShaneHoughton"
+            target="_blank"
+          >
+            <span className="font-semibold">ShanehHoughton</span> - my github
+          </a>
+        </li>
+        <li className="text-xl">
+          <a
+            className="hover:underline hover:underline-offset-4 cursor-pointer"
             href="https://github.com/ShaneHoughton/deets"
             target="_blank"
           >
