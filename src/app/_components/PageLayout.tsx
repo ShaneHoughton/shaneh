@@ -23,14 +23,14 @@ export default function PageLayout(props: PageLayoutProps) {
       )}
 
       <main
-        className={`w-full flex flex-wrap gap-10 transition-opacity duration-500 ease-in-out overflow-y-scroll mb-15 ${
+        className={`w-full flex flex-wrap gap-10 transition-opacity duration-500 ease-in-out overflow-y-scroll ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         {props.children}
       </main>
 
-      <div className="bottom-15 absolute">
+      <div className="bottom-15 sticky">
         <NavFooter />
       </div>
     </div>
