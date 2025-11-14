@@ -30,7 +30,7 @@ export default function PageLayout(props: PageLayoutProps) {
         {props.children}
       </main>
 
-      <div className="bottom-15 sticky">
+      <div className="mt-auto bottom-0 sticky">
         <NavFooter />
       </div>
     </div>

@@ -7,16 +7,18 @@ export default function Home() {
     "Hi there, I'm Shane Houghton. I am a full-stack software developer, computer scientist, and artist from Easton, PA.";
   return (
     <PageLayout title="shaneh.dev" description={description}>
-      <Image
-        aria-hidden
-        unoptimized
-        priority
-        className="ml-auto right-20 bottom-25 w-2/3 absolute opacity-50"
-        src="./squid.gif"
-        alt="my cat, Squidward, lounging"
-        width={900}
-        height={900}
-      />
+      <div className="h-full w-full">
+        <Image
+          aria-hidden
+          unoptimized
+          priority
+          className="ml-auto right-20 bottom-25 w-2/3 absolute opacity-50"
+          src="./squid.gif"
+          alt="my cat, Squidward, lounging"
+          width={900}
+          height={900}
+        />
+      </div>
     </PageLayout>
   );
 }
