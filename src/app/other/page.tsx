@@ -4,7 +4,7 @@ import PageLayout from "../_components/PageLayout";
 export default function Other() {
   return (
     <PageLayout title="other stuff" description="artwork and passion projects">
-      <div className="flex flex-wrap gap-10 justify-center sm:justify-normal h-80 overflow-scroll">
+      <div className="flex flex-wrap gap-10 justify-center sm:justify-normal">
         <a
           className="hover:underline hover:underline-offset-4 cursor-pointer"
           href="https://youtu.be/hB5A7hiU6NI?si=lblSCb7gAcANZ2Zb"
